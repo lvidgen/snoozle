@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<div id = "blanket">
+	</div>
+    <div id="container">
+      <div id ="content">
+        <div id = "board">
+          <button class="btn">
+          </button>
+        </div>
+        <div>Choose square colour
+        </div>
+        <div id = "rads">
+          <input type ="radio" id="gold" name="col">Gold 
+          <input type ="radio" id="green" name="col">Green 
+          <input type ="radio" id="lightgray" name="col">Blank
+        </div>
+		Now click some squares...<br>
+        OR
+        </br>
+		<div>
+      I can't be bothered with all this clicking,</br> 
+      <input type="button" value = "generate a win" id="randwin"> in 
+      <input type=number min=1 max=6 value=2 id="attno"> attempts!
+	  </div>
+      <div>
+        <input type = "button" value = "Share" id="sharebtn">
+      </div>
+      <div>Share preview:
+      </div>
+      <textarea rows = 8 id="ta">
+      </textarea>
+    </div>
+    </div>
+	<div id = "modal">
+	<div>
+	Your results have been copied to the clipboard
+	</div>
+	<span id="closer">OK</span>
+	</div>
+  <script src="snoozle.js">
+
+  </script>
+  </body>
+</html> 
